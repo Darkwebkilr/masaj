@@ -1,0 +1,60 @@
+{
+  "Common": {
+    "book_now": "Jetzt Buchen",
+    "call_now": "Jetzt Anrufen",
+    "whatsapp_now": "WhatsApp Termin",
+    "services": "Dienstleistungen",
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "see_all_services": "Alle Dienstleistungen",
+    "back_to_services": "Zurück zur Übersicht",
+    "details": "Details",
+    "explore": "Entdecken",
+    "all_turkiye": "In ganz Türkiye",
+    "all_turkiye_hizmet": "Luxus-Service in ganz Türkiye"
+  },
+  "Hero": {
+    "badge": "Luxus-Service in ganz Türkiye",
+    "title_part1": "Körperliche",
+    "title_part2": "Renaissance",
+    "desc": "Lassen Sie den Stadtlärm hinter sich. Entdecken Sie den reinsten Moment der Ruhe, der nur für Sie geschaffen wurde.",
+    "cta_primary": "Jetzt Erneuern",
+    "cta_secondary": "Rituale Entdecken",
+    "floating_title": "Elite",
+    "floating_desc": "Therapie-Experte",
+    "scroll_hint": "Scrollen"
+  },
+  "Services": {
+    "title": "Unsere Signatur-Rituale",
+    "subtitle": "Personalisierte Erlebnisse",
+    "isvec": {
+      "title": "Schwedische Massage",
+      "short_desc": "Eine klassische und friedliche Therapie zur Förderung der Entspannung und Verbesserung der Durchblutung."
+    },
+    "derin": {
+      "title": "Tiefengewebe",
+      "short_desc": "Eine professionelle Technik mit intensivem Druck zur Linderung chronischer Muskelschmerzen."
+    },
+    "aromaterapi": {
+      "title": "Aromatherapie",
+      "short_desc": "Ein aromatisches Erlebnis, kombiniert mit der Heilkraft ätherischer Öle, das Körper und Seele erfrischt."
+    }
+  },
+  "About": {
+    "subtitle": "Unsere Philosophie",
+    "title_part1": "Stille der",
+    "title_part2": "Seele",
+    "p1": "Massage ist für uns nicht nur eine Dienstleistung, sondern ein heiliger Moment der Neuausrichtung von Körper und Geist.",
+    "p2": "Mit unserem Netzwerk in ganz Türkiye bringen wir das luxuriöse Spa-Erlebnis direkt zu Ihnen nach Hause. Nur das Beste für Sie.",
+    "experience": "10+ Jahre Leidenschaft",
+    "stat1_value": "2.000+",
+    "stat1_label": "Glückliche Seelen",
+    "stat2_value": "100%",
+    "stat2_label": "Natürliche Heilung"
+  },
+  "CTA": {
+    "title": "Bereit für die Wiedergeburt?",
+    "desc": "Buchen Sie noch heute Ihren Termin für professionelle Massage in ganz Türkiye.",
+    "whatsapp_cta": "TERMIN PER WHATSAPP BUCHEN"
+  }
+}

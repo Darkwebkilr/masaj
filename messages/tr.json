@@ -1,0 +1,60 @@
+{
+  "Common": {
+    "book_now": "Randevu Al",
+    "call_now": "Hemen Ara",
+    "whatsapp_now": "WhatsApp Randevu",
+    "services": "Hizmetler",
+    "about": "Hakkımda",
+    "contact": "İletişim",
+    "see_all_services": "Tüm Hizmetleri Gör",
+    "back_to_services": "Hizmetlere Geri Dön",
+    "details": "Detaylar",
+    "explore": "Keşfet",
+    "all_turkiye": "Tüm Türkiye'deyiz",
+    "all_turkiye_hizmet": "Tüm Türkiye'ye Lüks Hizmet"
+  },
+  "Hero": {
+    "badge": "Tüm Türkiye'ye Lüks Hizmet",
+    "title_part1": "Bedensel",
+    "title_part2": "Rönesans",
+    "desc": "Şehrin gürültüsünü dışarıda bırakın. Sizin için tasarlanmış en saf huzur anına davetlisiniz.",
+    "cta_primary": "Şimdi Yenilenin",
+    "cta_secondary": "Ritüelleri Keşfet",
+    "floating_title": "Elite",
+    "floating_desc": "Terapi Uzmanı",
+    "scroll_hint": "Kaydırın"
+  },
+  "Services": {
+    "title": "İmza Ritüellerimiz",
+    "subtitle": "Kişiye Özel Deneyimler",
+    "isvec": {
+      "title": "İsveç Masajı",
+      "short_desc": "Gevşemeyi teşvik etmek ve kan dolaşımını artırmak için tasarlanmış klasik ve huzurlu bir terapi."
+    },
+    "derin": {
+      "title": "Derin Doku",
+      "short_desc": "Kaslardaki kronik ağrıları gidermeye yönelik, daha yoğun baskı uygulanan profesyonel bir teknik."
+    },
+    "aromaterapi": {
+      "title": "Aromaterapi",
+      "short_desc": "Bitkisel yağların iyileştirici gücüyle harmanlanan, ruhu ve bedeni tazeleyen aromatik bir deneyim."
+    }
+  },
+  "About": {
+    "subtitle": "Felsefemiz",
+    "title_part1": "Ruhun",
+    "title_part2": "Sessizliği",
+    "p1": "Masaj bizim için sadece bir hizmet değil, bedenin ve ruhun yeniden hizalandığı kutsal bir andır. Nilgün Hanım'ın ellerinde her vuruş, derin bir şifaya dönüşür.",
+    "p2": "Tüm Türkiye'ye yayılan hizmet ağımızla, lüks spa deneyimini evinizin konforuna veya dilediğiniz özel alanlara taşıyoruz. Sizin için sadece en iyisi.",
+    "experience": "10+ Yıllık Tutku",
+    "stat1_value": "2.000+",
+    "stat1_label": "Mutlu Ruh",
+    "stat2_value": "%100",
+    "stat2_label": "Doğal Şifa"
+  },
+  "CTA": {
+    "title": "Yeniden Doğmaya Hazır mısınız?",
+    "desc": "Tüm Türkiye'de profesyonel masaj hizmeti için bugün randevunuzu oluşturun.",
+    "whatsapp_cta": "WHATSAPP İLE RANDEVU AL"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "Common": {
+    "book_now": "Book Now",
+    "call_now": "Call Now",
+    "whatsapp_now": "WhatsApp Appointment",
+    "services": "Services",
+    "about": "About Me",
+    "contact": "Contact",
+    "see_all_services": "See All Services",
+    "back_to_services": "Back to Services",
+    "details": "Details",
+    "explore": "Explore",
+    "all_turkiye": "We are in all Türkiye",
+    "all_turkiye_hizmet": "Luxury Service Across Türkiye"
+  },
+  "Hero": {
+    "badge": "Luxury Service Across Türkiye",
+    "title_part1": "Physical",
+    "title_part2": "Renaissance",
+    "desc": "Leave the city noise behind. You are invited to the purest moment of peace designed just for you.",
+    "cta_primary": "Renew Now",
+    "cta_secondary": "Discover Rituals",
+    "floating_title": "Elite",
+    "floating_desc": "Therapy Expert",
+    "scroll_hint": "Scroll"
+  },
+  "Services": {
+    "title": "Our Signature Rituals",
+    "subtitle": "Personalized Experiences",
+    "isvec": {
+      "title": "Swedish Massage",
+      "short_desc": "A classic and peaceful therapy designed to promote relaxation and increase blood circulation."
+    },
+    "derin": {
+      "title": "Deep Tissue",
+      "short_desc": "A professional technique applied with more intense pressure to relieve chronic muscle pain."
+    },
+    "aromaterapi": {
+      "title": "Aromatherapy",
+      "short_desc": "An aromatic experience blended with the healing power of essential oils, refreshing both soul and body."
+    }
+  },
+  "About": {
+    "subtitle": "Our Philosophy",
+    "title_part1": "Soul's",
+    "title_part2": "Silence",
+    "p1": "For us, massage is not just a service, but a sacred moment where body and soul are realigned. Every stroke in Nilgün's hands turns into deep healing.",
+    "p2": "With our service network spanning all of Türkiye, we bring the luxury spa experience to the comfort of your home or any private space. Only the best for you.",
+    "experience": "10+ Years of Passion",
+    "stat1_value": "2.000+",
+    "stat1_label": "Happy Souls",
+    "stat2_value": "100%",
+    "stat2_label": "Natural Healing"
+  },
+  "CTA": {
+    "title": "Ready to be Reborn?",
+    "desc": "Book your appointment today for professional massage service across all of Türkiye.",
+    "whatsapp_cta": "BOOK APPOINTMENT VIA WHATSAPP"
+  }
+}
