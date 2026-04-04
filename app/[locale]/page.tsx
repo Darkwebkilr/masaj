@@ -55,11 +55,11 @@ export default function Home() {
       
       {/* Floating Action Buttons */}
       <div className={`fixed bottom-8 ${locale === 'ar' ? 'left-8' : 'right-8'} z-[100] flex flex-col gap-4 items-end animate-fade-in-right delay-1000`}>
-        <a href="tel:+905000000000" className="flex h-14 items-center gap-3 rounded-full bg-primary px-6 text-white shadow-2xl transition-all hover:scale-105 group border border-white/10">
+        <a href="tel:+905077158727" className="flex h-14 items-center gap-3 rounded-full bg-primary px-6 text-white shadow-2xl transition-all hover:scale-105 group border border-white/10">
           <Phone size={20} className="group-hover:rotate-12 transition-transform" />
           <span className="font-semibold text-sm whitespace-nowrap">{t('Common.call_now')}</span>
         </a>
-        <a href="https://wa.me/905000000000" target="_blank" rel="noopener noreferrer" className="animate-pulse-soft flex h-16 items-center gap-3 rounded-full bg-[#25D366] px-8 text-white shadow-2xl transition-all hover:scale-105 group border border-white/10">
+        <a href="https://wa.me/905077158727?text=Merhaba%2C%20masaj%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" className="animate-pulse-soft flex h-16 items-center gap-3 rounded-full bg-[#25D366] px-8 text-white shadow-2xl transition-all hover:scale-105 group border border-white/10">
           <MessageCircle size={24} className="group-hover:rotate-12 transition-transform" />
           <span className="font-bold text-base whitespace-nowrap tracking-wide uppercase">WHATSAPP</span>
         </a>
@@ -130,7 +130,7 @@ export default function Home() {
                 {t('Hero.desc')}
               </p>
               <div className="animate-fade-in-up delay-400 mt-14 flex flex-col gap-5 sm:flex-row w-full sm:w-auto">
-                <a href="https://wa.me/905000000000" className="group relative flex h-16 items-center justify-center gap-3 rounded-full bg-primary px-10 text-white transition-all hover:bg-primary-light hover:scale-105 shadow-2xl">
+                <a href="https://wa.me/905077158727?text=Merhaba%2C%20masaj%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." className="group relative flex h-16 items-center justify-center gap-3 rounded-full bg-primary px-10 text-white transition-all hover:bg-primary-light hover:scale-105 shadow-2xl">
                   <Phone size={20} />
                   <span className="font-semibold text-xl italic serif-font">{t('Hero.cta_primary')}</span>
                 </a>
@@ -167,9 +167,9 @@ export default function Home() {
         {/* Services Section */}
         <section id="hizmetler" className="px-6 py-24 bg-primary/5 backdrop-blur-xl md:px-12 md:py-40">
           <div className="mx-auto max-w-7xl text-center">
-            <div className="mb-24">
-              <span className="animate-fade-in sans-font text-xs font-bold uppercase tracking-[0.4em] text-accent mb-6 block">{t('Services.subtitle')}</span>
-              <h2 className="animate-fade-in-up serif-font text-5xl font-medium text-primary md:text-8xl">{t('Services.title')}</h2>
+            <div className="mb-24 text-center">
+              <span className="animate-fade-in sans-font text-xs font-bold uppercase tracking-[0.4em] text-accent mb-6 block mx-auto">{t('Services.subtitle')}</span>
+              <h2 className="animate-fade-in-up serif-font text-5xl font-medium text-primary md:text-8xl text-center">{t('Services.title')}</h2>
               <div className="mx-auto mt-8 h-[2px] w-32 bg-accent/20 rounded-full" />
             </div>
             
@@ -264,9 +264,9 @@ export default function Home() {
             </div>
             <h2 className="serif-font relative z-10 text-5xl font-light italic md:text-8xl mb-12 animate-fade-in-up">{t('CTA.title')}</h2>
             <div className="relative z-10 flex flex-wrap justify-center gap-10 mb-16 animate-fade-in-up delay-200">
-              <a href="tel:+905000000000" className="flex items-center gap-4 text-2xl font-light serif-font hover:text-accent transition-all hover:scale-105">
+              <a href="tel:+905077158727" className="flex items-center gap-4 text-2xl font-light serif-font hover:text-accent transition-all hover:scale-105">
                 <Phone size={24} className="text-accent" />
-                <span>0500 000 00 00</span>
+                <span>0507 715 87 27</span>
               </a>
               <div className="h-10 w-px bg-white/10 hidden md:block" />
               <div className="flex items-center gap-4 text-2xl font-light serif-font">
@@ -274,7 +274,7 @@ export default function Home() {
                 <span>{t('Common.all_turkiye')}</span>
               </div>
             </div>
-            <a href="https://wa.me/905000000000" className="relative z-10 inline-flex h-20 items-center justify-center rounded-full bg-white px-16 text-xl font-bold text-primary transition-all hover:scale-110 active:scale-95 shadow-xl hover:bg-accent hover:text-white group animate-fade-in-up delay-400">
+            <a href="https://wa.me/905077158727?text=Merhaba%2C%20masaj%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." className="relative z-10 inline-flex h-20 items-center justify-center rounded-full bg-white px-16 text-xl font-bold text-primary transition-all hover:scale-110 active:scale-95 shadow-xl hover:bg-accent hover:text-white group animate-fade-in-up delay-400">
               <MessageCircle size={28} className="mr-3 group-hover:rotate-12 transition-transform" />
               {t('CTA.whatsapp_cta')}
             </a>
@@ -282,16 +282,15 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="border-t border-primary/5 px-6 py-20 md:px-12 bg-primary/5">
+      <footer className="border-t border-primary/5 px-6 pt-20 pb-48 md:px-12 bg-primary/5">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-12 md:flex-row">
           <Link href={`/${locale}`} className="serif-font text-3xl font-semibold tracking-tighter text-primary">
             NİLGÜN <span className="font-light text-accent">MASAJ</span>
           </Link>
           <div className="flex flex-col items-center md:items-end gap-4">
              <div className="flex gap-8 text-muted">
-                <a href="#" className="hover:text-primary transition-all hover:scale-125"><Camera size={24} /></a>
-                <a href="tel:+905000000000" className="hover:text-primary transition-all hover:scale-125"><Phone size={24} /></a>
-                <a href="#" className="hover:text-primary transition-all hover:scale-125"><MessageCircle size={24} /></a>
+                <a href="tel:+905077158727" className="hover:text-primary transition-all hover:scale-125"><Phone size={24} /></a>
+                <a href="https://wa.me/905077158727?text=Merhaba%2C%20masaj%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-all hover:scale-125"><MessageCircle size={24} /></a>
              </div>
              <div className="sans-font text-sm text-muted/60 flex items-center gap-3 bg-primary/10 px-4 py-2 rounded-full">
                 <Globe size={14} className="text-accent" />
@@ -301,6 +300,9 @@ export default function Home() {
           <div className="sans-font text-sm text-muted/60 text-center md:text-left">
             © 2026 Nilgün Masaj Art Therapy. <br />
             <span className="text-[10px] uppercase tracking-widest opacity-50">All Rights Reserved.</span>
+            <div className="mt-4 text-[11px] font-medium tracking-wider text-accent/60">
+              Bu site <span className="text-accent">Evolution Ajans</span> tarafından yapılmıştır.
+            </div>
           </div>
         </div>
       </footer>

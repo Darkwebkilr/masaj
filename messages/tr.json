@@ -10,6 +10,8 @@
     "back_to_services": "Hizmetlere Geri Dön",
     "details": "Detaylar",
     "explore": "Keşfet",
+    "duration": "Süre",
+    "price": "Ücret",
     "all_turkiye": "Tüm Türkiye'deyiz",
     "all_turkiye_hizmet": "Tüm Türkiye'ye Lüks Hizmet"
   },
@@ -55,6 +57,7 @@
   "CTA": {
     "title": "Yeniden Doğmaya Hazır mısınız?",
     "desc": "Tüm Türkiye'de profesyonel masaj hizmeti için bugün randevunuzu oluşturun.",
-    "whatsapp_cta": "WHATSAPP İLE RANDEVU AL"
+    "whatsapp_cta": "WHATSAPP İLE RANDEVU AL",
+    "whatsapp_message": "Merhaba, masaj hizmetleriniz hakkında bilgi almak istiyorum."
   }
 }

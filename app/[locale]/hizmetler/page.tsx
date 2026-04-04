@@ -55,11 +55,11 @@ export default function ServicesPage() {
 
       {/* Floating Action Buttons */}
       <div className={`fixed bottom-8 ${locale === 'ar' ? 'left-8' : 'right-8'} z-[100] flex flex-col gap-4 items-end animate-fade-in-right delay-1000`}>
-        <a href="tel:+905000000000" className="flex h-14 items-center gap-3 rounded-full bg-primary px-6 text-white shadow-2xl transition-all hover:scale-105 border border-white/10">
+        <a href="tel:+905077158727" className="flex h-14 items-center gap-3 rounded-full bg-primary px-6 text-white shadow-2xl transition-all hover:scale-105 border border-white/10">
           <Phone size={20} />
           <span className="font-semibold text-sm">{t('Common.call_now')}</span>
         </a>
-        <a href="https://wa.me/905000000000" className="animate-pulse-soft flex h-16 items-center gap-3 rounded-full bg-[#25D366] px-8 text-white shadow-2xl transition-all hover:scale-105 border border-white/10">
+        <a href="https://wa.me/905077158727?text=Merhaba%2C%20masaj%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." className="animate-pulse-soft flex h-16 items-center gap-3 rounded-full bg-[#25D366] px-8 text-white shadow-2xl transition-all hover:scale-105 border border-white/10">
           <MessageCircle size={24} />
           <span className="font-bold text-base uppercase tracking-wide">WhatsApp</span>
         </a>
@@ -121,9 +121,10 @@ export default function ServicesPage() {
                     {t('Services.subtitle')}
                 </span>
             </div>
-            <h1 className="serif-font text-6xl md:text-9xl font-medium text-primary leading-tight">
+            <h1 className="serif-font text-6xl md:text-9xl font-medium text-primary leading-tight text-center">
                 {t('Services.title')}
             </h1>
+            <div className="mx-auto mt-10 h-[2px] w-40 bg-accent/20 rounded-full" />
           </div>
 
           <div className="space-y-32">
@@ -153,15 +154,19 @@ export default function ServicesPage() {
                         <div className="flex items-center gap-4 p-5 rounded-3xl bg-white/40 border border-white/20 backdrop-blur-sm">
                             <Clock size={20} className="text-accent" />
                             <div>
-                                <div className="text-[10px] uppercase tracking-widest text-muted font-bold">Süre</div>
-                                <div className="serif-font text-lg font-bold text-primary">{service.duration}</div>
+                                <div className="text-[10px] uppercase tracking-widest text-muted font-bold">{t('Common.duration')}</div>
+                                <div className="serif-font text-lg font-bold text-primary">
+                                    {service.duration.replace('Dakika', locale === 'tr' ? 'Dakika' : (locale === 'ar' ? 'دقيقة' : 'Min'))}
+                                </div>
                             </div>
                         </div>
                         <div className="flex items-center gap-4 p-5 rounded-3xl bg-white/40 border border-white/20 backdrop-blur-sm">
                             <Banknote size={20} className="text-primary" />
                             <div>
-                                <div className="text-[10px] uppercase tracking-widest text-muted font-bold">Ücret</div>
-                                <div className="serif-font text-lg font-bold text-primary">{service.price}</div>
+                                <div className="text-[10px] uppercase tracking-widest text-muted font-bold">{t('Common.price')}</div>
+                                <div className="serif-font text-lg font-bold text-primary">
+                                    {locale === 'tr' ? service.price : service.price.replace('₺', '$')}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -174,7 +179,7 @@ export default function ServicesPage() {
                             {t('Common.details')} <ArrowRight size={20} className={locale === 'ar' ? 'rotate-180' : ''} />
                         </Link>
                         <a 
-                            href="https://wa.me/905000000000"
+                            href="https://wa.me/905077158727?text=Merhaba%2C%20masaj%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
                             className="flex h-16 items-center justify-center gap-3 rounded-full border border-primary/20 bg-white/40 px-10 text-primary font-bold backdrop-blur-sm transition-all hover:bg-white/60 hover:scale-105"
                         >
                             <MessageCircle size={20} /> {t('Common.book_now')}
@@ -187,16 +192,15 @@ export default function ServicesPage() {
         </div>
       </main>
 
-      <footer className="border-t border-primary/5 px-6 py-20 md:px-12 bg-primary/5">
+      <footer className="border-t border-primary/5 px-6 pt-20 pb-48 md:px-12 bg-primary/5">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-12 md:flex-row">
           <Link href={`/${locale}`} className="serif-font text-3xl font-semibold tracking-tighter text-primary">
             NİLGÜN <span className="font-light text-accent">MASAJ</span>
           </Link>
           <div className="flex flex-col items-center md:items-end gap-4">
              <div className="flex gap-8 text-muted">
-                <a href="#" className="hover:text-primary transition-all hover:scale-125"><Camera size={24} /></a>
-                <a href="tel:+905000000000" className="hover:text-primary transition-all hover:scale-125"><Phone size={24} /></a>
-                <a href="#" className="hover:text-primary transition-all hover:scale-125"><MessageCircle size={24} /></a>
+                <a href="tel:+905077158727" className="hover:text-primary transition-all hover:scale-125"><Phone size={24} /></a>
+                <a href="https://wa.me/905077158727?text=Merhaba%2C%20masaj%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-all hover:scale-125"><MessageCircle size={24} /></a>
              </div>
              <div className="sans-font text-sm text-muted/60 flex items-center gap-3 bg-primary/10 px-4 py-2 rounded-full">
                 <Globe size={14} className="text-accent" />
@@ -206,6 +210,9 @@ export default function ServicesPage() {
           <div className="sans-font text-sm text-muted/60 text-center md:text-left">
             © 2026 Nilgün Masaj Art Therapy. <br />
             <span className="text-[10px] uppercase tracking-widest opacity-50">All Rights Reserved.</span>
+            <div className="mt-4 text-[11px] font-medium tracking-wider text-accent/60">
+              Bu site <span className="text-accent">Evolution Ajans</span> tarafından yapılmıştır.
+            </div>
           </div>
         </div>
       </footer>

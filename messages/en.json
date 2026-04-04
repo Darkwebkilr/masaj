@@ -10,6 +10,8 @@
     "back_to_services": "Back to Services",
     "details": "Details",
     "explore": "Explore",
+    "duration": "Duration",
+    "price": "Price",
     "all_turkiye": "We are in all Türkiye",
     "all_turkiye_hizmet": "Luxury Service Across Türkiye"
   },
@@ -55,6 +57,7 @@
   "CTA": {
     "title": "Ready to be Reborn?",
     "desc": "Book your appointment today for professional massage service across all of Türkiye.",
-    "whatsapp_cta": "BOOK APPOINTMENT VIA WHATSAPP"
+    "whatsapp_cta": "BOOK APPOINTMENT VIA WHATSAPP",
+    "whatsapp_message": "Hello, I would like to get information about your massage services."
   }
 }

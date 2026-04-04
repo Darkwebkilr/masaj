@@ -10,6 +10,8 @@
     "back_to_services": "Zurück zur Übersicht",
     "details": "Details",
     "explore": "Entdecken",
+    "duration": "Dauer",
+    "price": "Preis",
     "all_turkiye": "In ganz Türkiye",
     "all_turkiye_hizmet": "Luxus-Service in ganz Türkiye"
   },
@@ -55,6 +57,7 @@
   "CTA": {
     "title": "Bereit für die Wiedergeburt?",
     "desc": "Buchen Sie noch heute Ihren Termin für professionelle Massage in ganz Türkiye.",
-    "whatsapp_cta": "TERMIN PER WHATSAPP BUCHEN"
+    "whatsapp_cta": "TERMIN PER WHATSAPP BUCHEN",
+    "whatsapp_message": "Hallo, ich möchte Informationen über Ihre Massagedienstleistungen erhalten."
   }
 }
